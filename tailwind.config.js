@@ -10,7 +10,10 @@ export default {
     extend: {
       fontFamily: {
         'sans': ['Plus Jakarta Sans', 'sans-serif']
-      }
+      },
+      screens: {
+        sm: "430px",
+      },
     },
   },
   plugins: [],
